@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTT Subscription Pricing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>OTT Subscription Plans</h1>
+            <p>Choose the perfect plan for your streaming needs</p>
+        </section>
+
+        <section id="pricing">
+            <div class="pricing-controls">
+                <span>Monthly</span>
+                <label class="switch" aria-label="Toggle between monthly and annual billing">
+                    <input type="checkbox" id="billing-toggle">
+                    <span class="slider round"></span>
+                </label>
+                <span>Annually</span>
+                <select id="currency-select" aria-label="Select currency">
+                    <option value="USD">$ USD</option>
+                    <option value="EUR">€ EUR</option>
+                    <option value="GBP">£ GBP</option>
+                    <option value="INR">₹ INR</option>
+                </select>
+            </div>
+
+            <div class="pricing-cards">
+                <div class="pricing-card" role="region" aria-labelledby="basic-plan">
+                    <h2 id="basic-plan">Basic</h2>
+                    <p class="price" aria-live="polite">$9.99<span>/month</span></p>
+                    <ul>
+                        <li>Access to 500+ movies and TV shows</li>
+                        <li>HD streaming available</li>
+                        <li>Watch on 1 device at a time</li>
+                    </ul>
+                    <button>Choose Plan</button>
+                </div>
+
+                <div class="pricing-card" role="region" aria-labelledby="standard-plan">
+                    <h2 id="standard-plan">Standard</h2>
+                    <p class="price" aria-live="polite">$19.99<span>/month</span></p>
+                    <ul>
+                        <li>All Basic plan features</li>
+                        <li>4K Ultra HD available</li>
+                        <li>Watch on 2 devices simultaneously</li>
+                        <li>Offline downloads on mobile devices</li>
+                    </ul>
+                    <button>Choose Plan</button>
+                </div>
+
+                <div class="pricing-card" role="region" aria-labelledby="premium-plan">
+                    <h2 id="premium-plan">Premium</h2>
+                    <p class="price" aria-live="polite">$49.99<span>/month</span></p>
+                    <ul>
+                        <li>All Standard plan features</li>
+                        <li>Watch on 4 devices simultaneously</li>
+                        <li>Access to exclusive content and new releases</li>
+                        <li>Priority customer support</li>
+                    </ul>
+                    <button>Choose Plan</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Motioncut. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
