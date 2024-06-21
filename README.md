@@ -20,7 +20,7 @@ This project involves creating a visually appealing and user-friendly pricing pa
 ## Technologies Used
 - HTML
 - CSS
-- JavaScript (optional)
+- JavaScript
 
 ## Project Duration
 7 Days
